@@ -24,6 +24,7 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
+          repository: rlandosdg/sdg_containers
           
       -
         name: Build and push
